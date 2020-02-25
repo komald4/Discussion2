@@ -1,0 +1,12 @@
+<h1>Show Page</h1>
+
+<%= @group.name%>
+
+<%= button_to "Home Page", groups_path, method: :get %>
+<br>
+
+<%= button_to "Edit", edit_group_path, method: :get %>
+
+<br>
+
+<%= button_to "Delete", group_path, method: :delete %>
